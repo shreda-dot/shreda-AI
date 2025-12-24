@@ -9,14 +9,50 @@
     animation-fill-mode: both;
    
   }
+  .slide-in-from-top {
+    animation-name: SlideInFromTop;
+  }
+  .slide-in-from-bottom {
+    animation-name: SlideInFromBottom;
+  }
   .duration-300{
     animation-duration: 300ms;
   }
+  .duration-200{
+    animation-duration: 200ms;
+  }
+  .duration-700{
+    animation-duration: 700ms;
+  }
+  .delay-100{
+    animation-delay: 100ms;
+  }
+  .delay-200{
+    animation-delay: 200ms;
+  }
+  .delay-300{
+    animation-delay: 300ms;
+  }
+  
  @keyframes SlideInFromTop 
  {
     from {
       opacity: 0;
       transform: translateY(-1rem);
+    }
+    to 
+   {
+      transform: translateY(0);
+      opacity: 1;}
+
+    
+   
+  }
+ @keyframes SlideInFromBottom 
+ {
+    from {
+      opacity: 0;
+      transform: translateY(1rem);
     }
     to 
    {

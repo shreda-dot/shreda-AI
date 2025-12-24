@@ -8,9 +8,9 @@ const Navbar = () => {
 
   return (
     <>
-      <nav className="fixed z-50 top-0 bg-slate-950/20 w-full transition-all duration-500">
+      <nav className="fixed z-50 top-0 bg-slate-950/20 w-full transition-all duration-500 ">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex justify-between h-14 sm:h-16 md:h-20">
+          <div className="flex justify-between h-14 sm:h-16 md:h-20 mb">
             {/* LOGO IMAGE */}
             <div className="flex items-center space-x-1 group cursor-pointer">
               <div>
